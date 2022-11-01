@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../img/php.ico">
+	<title>Variáveis PHP</title>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>		
+	<section class="container-fluid">
+		<div class="logo-mlsfront">
+        	<a href="../index.html"><img src="../img/logo-mlsfront-programacao.png" alt="MLSFront" title="MLSFront" width="300" height="80"></a>
+		</div>
+		<div class="container-fluid" id="minu-sidebar">
+			<input type="checkbox" id="chec">
+			<label class="minu-sidebar" for="chec">
+				<img class="minu-sidebar" src="../img/menu.png">
+			</label>
+			<nav>
+				<ul class="minu-sidebar">	
+					<li><a class="minu-sidebar" href="inicio-php.html"><i class="fa-brands fa-php"></i>&nbsp;PHP INÍCIO</a></li>
+					<li><a class="minu-sidebar" href="introducao-ao-php.html"><i class="fa-brands fa-php"></i>&nbsp;Introdução ao PHP</a></li>
+					<li><a class="minu-sidebar" href="instalacao-do-php.html"><i class="fa-brands fa-php"></i>&nbsp;Instalação do PHP</a></li>
+					<li><a class="minu-sidebar" href="sintaxe-php.html"><i class="fa-brands fa-php"></i>&nbsp;Sintaxe PHP</a></li>
+					<li><a class="minu-sidebar" href="comentarios-php.html"><i class="fa-brands fa-php"></i>&nbsp;Comentários PHP</a></li>
+					<li><a class="minu-sidebar" href="variaveis-php.html"><i class="fa-brands fa-php"></i>&nbsp;Variáveis PHP</a></li>
+					<li><a class="minu-sidebar" href="php-echo-impressao.html"><i class="fa-brands fa-php"></i>&nbsp;PHP Eco/Impressão</a></li>
+					<li><a class="minu-sidebar" href="tipos-de-dados-php.html"><i class="fa-brands fa-php"></i>&nbsp;Tipos de dados PHP</a></li>
+					<li><a class="minu-sidebar" href="strings-php.html"><i class="fa-brands fa-php"></i>&nbsp;Strings PHP</a></li>
+					<li><a class="minu-sidebar" href="numeros-php.html"><i class="fa-brands fa-php"></i>&nbsp;Números PHP</a></li>
+					<li><a class="minu-sidebar" href="matematica-php.html"><i class="fa-brands fa-php"></i>&nbsp;Matemática PHP</a></li>
+					<li><a class="minu-sidebar" href="constantes-php.html"><i class="fa-brands fa-php"></i>&nbsp;Constantes PHP</a></li>
+					<li><a class="minu-sidebar" href="operadores-php.html"><i class="fa-brands fa-php"></i>&nbsp;Operadores PHP</a></li>
+					<li><a class="minu-sidebar" href="php-if-else-elseif.html"><i class="fa-brands fa-php"></i>&nbsp;PHP If...Else...Elseif</a></li>
+					<li><a class="minu-sidebar" href="chave-php.html"><i class="fa-brands fa-php"></i>&nbsp;Chave PHP</a></li>
+					<li><a class="minu-sidebar" href="loops-php.html"><i class="fa-brands fa-php"></i>&nbsp;Loops PHP</a></li>
+					<li><a class="minu-sidebar" href="funcoes-php.html"><i class="fa-brands fa-php"></i>&nbsp;Funções PHP</a></li>
+					<li><a class="minu-sidebar" href="matrizes-php.html"><i class="fa-brands fa-php"></i>&nbsp;Matrizes PHP</a></li>
+					<li><a class="minu-sidebar" href="php-superglobais.html"><i class="fa-brands fa-php"></i>&nbsp;PHP Superglobais</a></li>
+					<li><a class="minu-sidebar" href="php-regex.html"><i class="fa-brands fa-php"></i>&nbsp;PHP RegEx</a></li>
+					<li><a class="minu-sidebar" href="formularios-php.html"><i class="fa-brands fa-php"></i>&nbsp;Formulários PHP</a></li>
+					<li><a class="minu-sidebar" href="manipulacao-de-formularios-php.html"><i class="fa-brands fa-php"></i>&nbsp;Manipulação de formulários PHP</a></li>
+					<li><a class="minu-sidebar" href="validacao-de-formulario-php.html"><i class="fa-brands fa-php"></i>&nbsp;Validação de formulário PHP</a></li>
+					<li><a class="minu-sidebar" href="formulario-php-obrigatório.html"><i class="fa-brands fa-php"></i>&nbsp;Formulário PHP obrigatório</a></li>
+					<li><a class="minu-sidebar" href="php-form-url-e-mail.html"><i class="fa-brands fa-php"></i>&nbsp;PHP Form URL/E-mail</a></li>
+					<li><a class="minu-sidebar" href="formulario-php-completo.html"><i class="fa-brands fa-php"></i>&nbsp;Formulário PHP completo</a></li>
+					<li><a class="minu-sidebar" href="php-avancado.html"><i class="fa-brands fa-php"></i>&nbsp;PHP Avançado</a></li>
+					<li><a class="minu-sidebar" href="data-e-hora-do-php.html"><i class="fa-brands fa-php"></i>&nbsp;Data e hora do PHP</a></li>
+					<li><a class="minu-sidebar" href="incluir-php.html"><i class="fa-brands fa-php"></i>&nbsp;Incluir PHP</a></li>
+					<li><a class="minu-sidebar" href="manipulacao-de-arquivos-php.html"><i class="fa-brands fa-php"></i>&nbsp;Manipulação de arquivos PHP</a></li>
+					<li><a class="minu-sidebar" href="arquivo-php-abrir-ler.html"><i class="fa-brands fa-php"></i>&nbsp;Arquivo PHP Abrir/Ler</a></li>
+					<li><a class="minu-sidebar" href="arquivo-php-criar-gravar.html"><i class="fa-brands fa-php"></i>&nbsp;Arquivo PHP Criar/Gravar</a></li>
+					<li><a class="minu-sidebar" href="upload-de-arquivo-php.html"><i class="fa-brands fa-php"></i>&nbsp;Upload de arquivo PHP</a></li>
+					<li><a class="minu-sidebar" href="cookies-php.html"><i class="fa-brands fa-php"></i>&nbsp;Cookies PHP</a></li>
+					<li><a class="minu-sidebar" href="sessões-php.html"><i class="fa-brands fa-php"></i>&nbsp;Sessões PHP</a></li>
+					<li><a class="minu-sidebar" href="filtros-php.html"><i class="fa-brands fa-php"></i>&nbsp;Filtros PHP</a></li>
+					<li><a class="minu-sidebar" href="filtros-php-avancados.html"><i class="fa-brands fa-php"></i>&nbsp;Filtros PHP Avançados</a></li>
+					<li><a class="minu-sidebar" href="funcões-de-retorno-de-chamada-do-php.html"><i class="fa-brands fa-php"></i>&nbsp;Funções de retorno de chamada do PHP</a></li>
+					<li><a class="minu-sidebar" href="php-json.html"><i class="fa-brands fa-php"></i>&nbsp;PHP JSON</a></li>
+					<li><a class="minu-sidebar" href="excecões-do-php.html"><i class="fa-brands fa-php"></i>&nbsp;Exceções do PHP</a></li>
+					<li><a class="minu-sidebar" href="php-oop.html"><i class="fa-brands fa-php"></i>&nbsp;PHP OOP</a></li>
+					<li><a class="minu-sidebar" href="php-o-que-e-poo.html"><i class="fa-brands fa-php"></i>&nbsp;PHP O que é POO</a></li>
+					<li><a class="minu-sidebar" href="classes-objetos-php.html"><i class="fa-brands fa-php"></i>&nbsp;Classes/objetos PHP</a></li>
+					<li><a class="minu-sidebar" href="construtor-php.html"><i class="fa-brands fa-php"></i>&nbsp;Construtor PHP</a></li>
+					<li><a class="minu-sidebar" href="destruidor-php.html"><i class="fa-brands fa-php"></i>&nbsp;Destruidor PHP</a></li>
+					<li><a class="minu-sidebar" href="modificadores-de-acesso-php.html"><i class="fa-brands fa-php"></i>&nbsp;Modificadores de acesso PHP</a></li>
+					<li><a class="minu-sidebar" href="heranca-php.html"><i class="fa-brands fa-php"></i>&nbsp;Herança PHP</a></li>
+					<li><a class="minu-sidebar" href="constantes-php.html"><i class="fa-brands fa-php"></i>&nbsp;Constantes PHP</a></li>
+					<li><a class="minu-sidebar" href="classes-abstratas-php.html"><i class="fa-brands fa-php"></i>&nbsp;Classes abstratas PHP</a></li>
+					<li><a class="minu-sidebar" href="interfaces-php.html"><i class="fa-brands fa-php"></i>&nbsp;Interfaces PHP</a></li>
+					<li><a class="minu-sidebar" href="caracteristicas-php.html"><i class="fa-brands fa-php"></i>&nbsp;Características PHP</a></li>
+					<li><a class="minu-sidebar" href="metodos-estaticos-php.html"><i class="fa-brands fa-php"></i>&nbsp;Métodos estáticos PHP</a></li>
+					<li><a class="minu-sidebar" href="propriedades-estaticas-do-php.html"><i class="fa-brands fa-php"></i>&nbsp;Propriedades estáticas do PHP</a></li>
+					<li><a class="minu-sidebar" href="namespaces-php.html"><i class="fa-brands fa-php"></i>&nbsp;Namespaces PHP</a></li>
+					<li><a class="minu-sidebar" href="iteraveis-php.html"><i class="fa-brands fa-php"></i>&nbsp;Iteráveis PHP</a></li>
+					<li><a class="minu-sidebar" href="banco-de-dados-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Banco de dados MySQL</a></li>
+					<li><a class="minu-sidebar" href="banco-de-dados-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Banco de dados MySQL</a></li>
+					<li><a class="minu-sidebar" href="mysql-connect.html"><i class="fa-brands fa-php"></i>&nbsp;MySQL Connect</a></li>
+					<li><a class="minu-sidebar" href="mysql-criar-banco-de-dados.html"><i class="fa-brands fa-php"></i>&nbsp;MySQL Criar banco de dados</a></li>
+					<li><a class="minu-sidebar" href="mysql-criar-tabela.html"><i class="fa-brands fa-php"></i>&nbsp;MySQL Criar Tabela</a></li>
+					<li><a class="minu-sidebar" href="dados-de-insercao-do-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Dados de inserção do MySQL</a></li>
+					<li><a class="minu-sidebar" href="mysql-obter-ultimo-id.html"><i class="fa-brands fa-php"></i>&nbsp;MySQL Obter Último ID</a></li>
+					<li><a class="minu-sidebar" href="mysql-inserir-multiplo.html"><i class="fa-brands fa-php"></i>&nbsp;MySQL Inserir Múltiplo</a></li>
+					<li><a class="minu-sidebar" href="preparado-para-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Preparado para MySQL</a></li>
+					<li><a class="minu-sidebar" href="dados-de-selecao-do-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Dados de seleção do MySQL</a></li>
+					<li><a class="minu-sidebar" href="mysql-onde.html"><i class="fa-brands fa-php"></i>&nbsp;MySQL Onde</a></li>
+					<li><a class="minu-sidebar" href="mysql-ordenar-por.html"><i class="fa-brands fa-php"></i>&nbsp;MySQL Ordenar por</a></li>
+					<li><a class="minu-sidebar" href="dados-de-exclusao-do-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Dados de exclusão do MySQL</a></li>
+					<li><a class="minu-sidebar" href="dados-de-atualizacao-do-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Dados de atualização do MySQL</a></li>
+					<li><a class="minu-sidebar" href="dados-de-limite-do-mysql.html"><i class="fa-brands fa-php"></i>&nbsp;Dados de limite do MySQL</a></li>
+					<li><a class="minu-sidebar" href="php-xml.html"><i class="fa-brands fa-php"></i>&nbsp;PHP XML</a></li>
+					<li><a class="minu-sidebar" href="analisadores-xml-php.html"><i class="fa-brands fa-php"></i>&nbsp;Analisadores XML PHP</a></li>
+					<li><a class="minu-sidebar" href="analisador-php-simplexml.html"><i class="fa-brands fa-php"></i>&nbsp;Analisador PHP SimpleXML</a></li>
+					<li><a class="minu-sidebar" href="php-simplexml---obter.html"><i class="fa-brands fa-php"></i>&nbsp;PHP SimpleXML - Obter</a></li>
+					<li><a class="minu-sidebar" href="php-xml-expatriado.html"><i class="fa-brands fa-php"></i>&nbsp;PHP XML Expatriado</a></li>
+					<li><a class="minu-sidebar" href="php-xml-dom.html"><i class="fa-brands fa-php"></i>&nbsp;PHP XML DOM</a></li>
+					<li><a class="minu-sidebar" href="php---ajax.html"><i class="fa-brands fa-php"></i>&nbsp;PHP - AJAX</a></li>
+					<li><a class="minu-sidebar" href="ajax-enter.html"><i class="fa-brands fa-php"></i>&nbsp;AJAX Enter</a></li>
+					<li><a class="minu-sidebar" href="php-ajax.html"><i class="fa-brands fa-php"></i>&nbsp;PHP AJAX</a></li>
+					<li><a class="minu-sidebar" href="banco-de-dados-ajax.html"><i class="fa-brands fa-php"></i>&nbsp;Banco de dados AJAX</a></li>
+					<li><a class="minu-sidebar" href="xml-ajax.html"><i class="fa-brands fa-php"></i>&nbsp;XML AJAX</a></li>
+					<li><a class="minu-sidebar" href="pesquisa-em-tempo-real-ajax.html"><i class="fa-brands fa-php"></i>&nbsp;Pesquisa em tempo real AJAX</a></li>
+					<li><a class="minu-sidebar" href="enquete-ajax.html"><i class="fa-brands fa-php"></i>&nbsp;Enquete AJAX</a></li>
+					<li><a class="minu-sidebar" href="exemplos-php.html"><i class="fa-brands fa-php"></i>&nbsp;Exemplos PHP</a></li>
+					<li><a class="minu-sidebar" href="exemplos-php.html"><i class="fa-brands fa-php"></i>&nbsp;Exemplos PHP</a></li>
+					<li><a class="minu-sidebar" href="compilador-php.html"><i class="fa-brands fa-php"></i>&nbsp;Compilador PHP</a></li>
+					<li><a class="minu-sidebar" href="teste-php.html"><i class="fa-brands fa-php"></i>&nbsp;Teste PHP</a></li>
+					<li><a class="minu-sidebar" href="exercicios-php.html"><i class="fa-brands fa-php"></i>&nbsp;Exercícios PHP</a></li>
+					<li><a class="minu-sidebar" href="certificado-php.html"><i class="fa-brands fa-php"></i>&nbsp;Certificado PHP</a></li>
+					<li><a class="minu-sidebar" href="referência-php.html"><i class="fa-brands fa-php"></i>&nbsp;Referência PHP</a></li>
+					<li><a class="minu-sidebar" href="visao-geral-do-php.html"><i class="fa-brands fa-php"></i>&nbsp;Visão geral do PHP</a></li>
+					<li><a class="minu-sidebar" href="matriz-php.html"><i class="fa-brands fa-php"></i>&nbsp;Matriz PHP</a></li>
+					<li><a class="minu-sidebar" href="calendario-php.html"><i class="fa-brands fa-php"></i>&nbsp;Calendário PHP</a></li>
+					<li><a class="minu-sidebar" href="data-do-php.html"><i class="fa-brands fa-php"></i>&nbsp;Data do PHP</a></li>
+					<li><a class="minu-sidebar" href="diretório-php.html"><i class="fa-brands fa-php"></i>&nbsp;Diretório PHP</a></li>
+					<li><a class="minu-sidebar" href="erro-php.html"><i class="fa-brands fa-php"></i>&nbsp;Erro PHP</a></li>
+					<li><a class="minu-sidebar" href="excecao-php.html"><i class="fa-brands fa-php"></i>&nbsp;Exceção PHP</a></li>
+					<li><a class="minu-sidebar" href="sistema-de-arquivos-php.html"><i class="fa-brands fa-php"></i>&nbsp;Sistema de arquivos PHP</a></li>
+					<li><a class="minu-sidebar" href="filtro-php.html"><i class="fa-brands fa-php"></i>&nbsp;Filtro PHP</a></li>
+					<li><a class="minu-sidebar" href="php-ftp.html"><i class="fa-brands fa-php"></i>&nbsp;PHP FTP</a></li>
+					<li><a class="minu-sidebar" href="php-json.html"><i class="fa-brands fa-php"></i>&nbsp;PHP JSON</a></li>
+					<li><a class="minu-sidebar" href="palavras-chave-php.html"><i class="fa-brands fa-php"></i>&nbsp;Palavras-chave PHP</a></li>
+					<li><a class="minu-sidebar" href="php-libxml.html"><i class="fa-brands fa-php"></i>&nbsp;PHP Libxml</a></li>
+					<li><a class="minu-sidebar" href="correio-php.html"><i class="fa-brands fa-php"></i>&nbsp;Correio PHP</a></li>
+					<li><a class="minu-sidebar" href="matematica-php.html"><i class="fa-brands fa-php"></i>&nbsp;Matemática PHP</a></li>
+					<li><a class="minu-sidebar" href="php-diversos.html"><i class="fa-brands fa-php"></i>&nbsp;PHP Diversos</a></li>
+					<li><a class="minu-sidebar" href="php-mysqli.html"><i class="fa-brands fa-php"></i>&nbsp;PHP MySQLi</a></li>
+					<li><a class="minu-sidebar" href="rede-php.html"><i class="fa-brands fa-php"></i>&nbsp;Rede PHP</a></li>
+					<li><a class="minu-sidebar" href="controle-de-saida-php.html"><i class="fa-brands fa-php"></i>&nbsp;Controle de saída PHP</a></li>
+					<li><a class="minu-sidebar" href="php-regex.html"><i class="fa-brands fa-php"></i>&nbsp;PHP RegEx</a></li>
+					<li><a class="minu-sidebar" href="php-simplexml.html"><i class="fa-brands fa-php"></i>&nbsp;PHP SimpleXML</a></li>
+					<li><a class="minu-sidebar" href="fluxo-php.html"><i class="fa-brands fa-php"></i>&nbsp;Fluxo PHP</a></li>
+					<li><a class="minu-sidebar" href="string-php.html"><i class="fa-brands fa-php"></i>&nbsp;String PHP</a></li>
+					<li><a class="minu-sidebar" href="manipulacao-de-variaveis-php.html"><i class="fa-brands fa-php"></i>&nbsp;Manipulação de variáveis PHP</a></li>
+					<li><a class="minu-sidebar" href="analisador-xml-php.html"><i class="fa-brands fa-php"></i>&nbsp;Analisador XML PHP</a></li>
+					<li><a class="minu-sidebar" href="php-zip.html"><i class="fa-brands fa-php"></i>&nbsp;PHP Zip</a></li>
+					<li><a class="minu-sidebar" href="fusos-horarios-php.html"><i class="fa-brands fa-php"></i>&nbsp;Fusos horários PHP</a></li>
+				</ul>	
+			</nav>
+		</div>	
+		<span class="badge bg-success"><a class="badge-w3" href="https://www.w3schools.com/php/php_variables.asp" target="_blank">W3Schools</a></span>
+		<h1>Variáveis PHP</h1>
+		<ul class="pagination">
+			<li class="page-item"><a class="page-link" href="comentarios-php.html">Previous</a></li>
+			<li class="page-item"><a class="page-link" href="inicio-php.html">1</a></li>
+			<li class="page-item" aria-current="page"><a class="page-link" href="introducao-ao-php.html">2</a></li>
+			<li class="page-item"><a class="page-link" href="instalacao-do-php.html">3</a></li>
+			<li class="page-item"><a class="page-link" href="sintaxe-php.html">4</a></li>
+			<li class="page-item active"><a class="page-link" href="">...</a></li>
+			<li class="page-item"><a class="page-link" href="php-echo-impressao.html">Next</a></li>
+		</ul>
+
+		<p>Variáveis são "contêineres" para armazenar informações.</p>
+		<h2>Criando (declarando) variáveis PHP</h2>
+		<p>No PHP, uma variável começa com o $ sinal, seguido pelo nome da variável:</p>
+
+
+
+		<!-- EXEMPLO -->
+		<div class="alert alert-success" role="alert">
+		  <h4 class="alert-heading">Exemplo</h4>
+		  <hr>
+		  <code>
+		  	&lt;?php<br><b>$txt</b> = "Hello world!";<br><b>$x</b> = 5;<br><b>$y</b> = 10.5;<br>?&gt;<br>
+		  </code>
+		</div>
+		<!-- /EXEMPLO -->
+
+		<p>Após a execução das instruções acima, a variável <code>$txt</code> conterá o valor Hello world!, a variável <code>$x</code> conterá o valor 5 e a variável <code>$y</code> conterá o valor 10.5.</p>
+
+		<p><b>Nota</b>: Ao atribuir um valor de texto a uma variável, coloque aspas ao redor do valor.</p>
+
+		<p><b>Nota</b>: Ao contrário de outras linguagens de programação, o PHP não possui comando para declarar uma variável. Ele é criado no momento em que você atribui um valor a ele pela primeira vez.</p>
+
+		<!-- NOTA -->		
+		<div class="alert alert-warning" role="alert">
+		  Pense nas variáveis como contêineres para armazenar dados no branco
+		</div>
+		<!-- /NOTA -->
+
+		<h2>Variáveis PHP</h2>
+		<p>Uma variável pode ter um nome curto (como x e y) ou um nome mais descritivo (age, carname, total_volume).</p>
+
+		<p>Regras para variáveis PHP:</p>
+
+		<li>Uma variável começa com o $ sinal, seguido pelo nome da variável</li>
+		<li>Um nome de variável deve começar com uma letra ou o caractere sublinhado</li>
+		<li>Um nome de variável não pode começar com um número</li>
+		<li>Um nome de variável pode conter apenas caracteres alfanuméricos e sublinhados (Az, 0-9 e _ )</li>
+		<li>Os nomes das variáveis diferenciam maiúsculas de minúsculas (<code>$age</code> e <code>$AGE</code> são duas variáveis diferentes)</li>
+
+		<!-- NOTA -->		
+		<div class="alert alert-warning" role="alert">
+		  Lembre-se de que os nomes das variáveis PHP diferenciam maiúsculas de minúsculas!
+		</div>
+		<!-- /NOTA -->
+
+		<h2>Variáveis de saída</h2>
+		<p>A instrução PHP echo é frequentemente usada para enviar dados para a tela.</p>
+
+		<p>O exemplo a seguir mostrará como gerar texto e uma variável:</p>
+
+		<!-- EXEMPLO -->
+		<div class="alert alert-success" role="alert">
+		  <h4 class="alert-heading">Exemplo</h4>
+		  <hr>
+		  <code>
+		  	&lt;?php<br><b>$txt</b> = "W3Schools.com";<br><span class="comentario-html">echo</span> "I love $txt!";<br>?&gt;<br>
+		  </code>
+		</div>
+		<!-- /EXEMPLO -->
+
+		<p>O exemplo a seguir produzirá a mesma saída que o exemplo acima:</p>
+
+		<!-- EXEMPLO -->
+		<div class="alert alert-success" role="alert">
+		  <h4 class="alert-heading">Exemplo</h4>
+		  <hr>
+		  <code>
+		  	&lt;?php<br><b>$txt</b> = "W3Schools.com";<br><span class="comentario-html">echo</span> "I love " . $txt . "!";<br>?&gt;<br>
+		  </code>
+		</div>
+		<!-- /EXEMPLO -->
+
+		<p>O exemplo a seguir produzirá a soma de duas variáveis:</p>
+
+		<!-- EXEMPLO -->
+		<div class="alert alert-success" role="alert">
+		  <h4 class="alert-heading">Exemplo</h4>
+		  <hr>
+		  <code>
+		  	&lt;?php<br><b>$x</b> = 5;<br><b>$y</b> = 4;<br><span class="comentario-html">echo</span> $x + $y;<br>?&gt;<br>
+		  </code>
+		</div>
+		<!-- /EXEMPLO -->
+
+		<p><b>Nota</b>: Você aprenderá mais sobre a echo instrução e como enviar dados para a tela no próximo capítulo.</p>
+
+		<h2>PHP é uma linguagem livremente tipada</h2>
+		<p>No exemplo acima, observe que não precisamos informar ao PHP qual é o tipo de dado da variável.</p>
+
+		<p>O PHP associa automaticamente um tipo de dado à variável, dependendo de seu valor. Como os tipos de dados não são definidos em sentido estrito, você pode fazer coisas como adicionar uma string a um inteiro sem causar um erro.</p>
+
+		<p>No PHP 7, foram adicionadas declarações de tipo. Isso oferece uma opção para especificar o tipo de dados esperado ao declarar uma função e, ao habilitar o requisito estrito, ele lançará um "Erro Fatal" em uma incompatibilidade de tipo.</p>
+
+		<p>Você aprenderá mais sobre requisitos <code>strict</code> e <code>non-strict</code> declarações de tipo de dados no capítulo Funções do PHP .</p>				
+
+		<ul class="pagination justify-content-center">
+			<li class="page-item"><a class="page-link" href="comentarios-php.html" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+			<li class="page-item"><a class="page-link" href="inicio-php.html">1</a></li>
+			<li class="page-item" aria-current="page"><a class="page-link" href="introducao-ao-php.html">2</a></li>
+			<li class="page-item"><a class="page-link" href="instalacao-do-php.html">3</a></li>
+			<li class="page-item"><a class="page-link" href="sintaxe-php.html">4</a></li>
+			<li class="page-item active"><a class="page-link" href="">...</a></li>
+			<li class="page-item"><a class="page-link" href="php-echo-impressao.html" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+		</ul>
+
+	</section> 
+    <script src="../js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

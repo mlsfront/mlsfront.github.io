@@ -1,0 +1,11 @@
+.minu-sidebar{padding: 0px;	margin: 0px;}
+a.minu-sidebar {text-decoration: none;	color: black;}
+ul.minu-sidebar {list-style-type: none;}
+img.minu-sidebar {width: 40px;	margin-left: -30px;}
+input[type="checkbox"]{display: none;}
+nav {background-color: rgba(16,16,16,.8);	font-family: 'Courier Prime', monospace;	width: 400px;	left: -400px;	height: 94%;	position: absolute;	transition: all .5s;	margin-top: 0px;	z-index: 1;	overflow: auto;}
+input[type="checkbox"]:checked ~ nav {transform: translateX(400px);}
+ul.minu-sidebar {position: absolute;	width: 100%;}
+a.minu-sidebar {display: block;	padding: 20px 5px;	color: white;}
+a.minu-sidebar:hover {background-color: rgb(176, 224, 230);	color: black;}
+label.minu-sidebar {padding: 15px;}

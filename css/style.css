@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+/*font-family: 'Courier Prime', monospace;*/
+code {font-family: 'Courier Prime', monospace;}
+a.badge-w3 {color: #fff; text-decoration: none; margin-top: 30px;}
+.logo-mlsfront {text-align: center; padding: 10px; border-bottom: 0.5px solid rgba(0, 0, 0, .2);}
+.active {z-index: 0;}
+.espaco {margin-top: 10px;}
+.comentario-css {color: #007800;}
+.comentario-html {color: #000078;}
+.cor-vermelha {color: #ff0000;}
+.resultado-js {text-align: center; margin-bottom: 20px;}
+.img-em-desenvolvimento {background-image: url("../../img/estrelas.gif"); height: 300px; margin: 0;}
+p > marquee {color: #fff; padding: 7px; margin-top: 43px;}
+.textarea {border: none; resize: none}
+/* RODAPÉ */
+.bg-gradient-footer {background: linear-gradient(10DEG, #c3c3c3, #000); border-top: solid 1px white;}
+#social-facebook {background: url("../img/webicon-facebook.png") center;}
+#social-instagram {background: url("../img/webicon-instagram.png") center;}
+#social-twitter {background: url("../img/webicon-twitter.png") center;}
+#social-youtube {background: url("../img/webicon-youtube.png") center;}
+.social-icons a {font-size: 1.5em; color: rgba(255,255,255,0.7); text-shadow: 1px 1px 1px #000;}
+.social-icons a:last-child {margin-right: 0;}
+.social-icons a:hover {color: #c7a34b;}
+footer {margin: auto; padding: 20px; display: flex; flex-wrap: wrap; justify-content: space-between;}
+footer  p,a{color: #fff;}
+footer  .box{width: 33%; transition: all 0.4s ease;}
+footer  .topico{font-size: 22px; font-weight: 600; color: #fff; margin-bottom: 16px;}
+.topico-text {color: #fff; text-shadow: 1px 1px 1px #000;}
+footer  p{text-align: justify;}
+footer  .mais-baixo .topico{margin: 24px 0 10px 0;}
+footer  .mais-baixo i{padding-right: 16px;}
+footer  .coluna-do-meio{padding-left: 50px;}
+footer  .coluna-do-meio a{line-height: 32px;}
+footer  .coluna-direita input[type="email"]{height: 45px; width: 100%; outline: none; color: #000; background: #fff; border-radius: 5px; padding-left: 10px; font-size: 17px; border: 2px solid #222222;}
+footer  .coluna-direita input[type="submit"]{height: 42px; width: 100%; font-size: 18px; color: #d9d9d9; background: #c7a34b; outline: none; border-radius: 5px; letter-spacing: 1px; cursor: pointer; margin-top: 12px; border: 1px solid #c3c3c3; transition: all 0.3s ease-in-out;}
+ .coluna-direita input[type="submit"]:hover{background: none; color:  #c3c3c3;}
+footer  .media-icons a{font-size: 16px; height: 45px; width: 45px; display: inline-block; text-align: center; line-height: 43px; border-radius: 5px; border: 2px solid #c3c3c3; margin: 30px 5px 0 0; transition: all 0.3s ease;}
+ .media-icons a:hover{border-color: #c3c3c3;}
+footer a{transition: all 0.3s ease; color: #c7a34b; text-shadow: 1px 1px 1px #000;}
+footer a:hover{color: #fff;}
+.bottom{width: 100%; text-align: right; color: #fff; padding: 2px 40px 2px 3px; background: linear-gradient(#c3c3c3, #000);}
+.bottom a{color: #eb2f06;}
+@media (max-width:1100px) {
+footer .coluna-do-meio{padding-left: 50px;}
+}
+@media (max-width:950px){
+footer .box{width: 50%;}
+.right{margin-top: 40px;}
+}
+@media (max-width:720px){
+footer .box{width: 100%;} 
+footer  .coluna-do-meio{padding-left: 0; padding-top: 20px;}
+}
+@media (max-width:560px){
+footer{position: relative;}
+footer  .box{width: 100%; margin-top: 30px; width: 100%;}
+footer  .coluna-do-meio{padding-left: 0;}
+}
